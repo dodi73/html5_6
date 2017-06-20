@@ -1,0 +1,6 @@
+.test-row div{
+    height: 40px;
+    background-color: aqua;
+    border-right: solid 1px white;
+    border-top: solid 1px white;
+}

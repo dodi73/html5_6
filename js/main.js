@@ -31,7 +31,7 @@ function changeProgress( progress ) {
 //Késleltetett megjelenítés, ezredmásodpercben.
 setTimeout( function() {
     $( "#myModal" ).modal( "show" );
-}, 5000 );
+}, 3000 );
 
 //Ha nem anonomous függvénnyel adom meg (nem definíciót adok meg), hanme egyből beleírom
 //az utasítást a setTimeout fgv.-be, egyből le fog futni:
@@ -50,7 +50,8 @@ function showModal() {
 setTimeout( showModal, 5000 );
 */
 
-
+//Popover beállítása, inicializálása kell
+$('#popover1').popover()
 
 
 
